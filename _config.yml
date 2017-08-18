@@ -1,0 +1,17 @@
+author: Eric Brelsford
+title: Eric Brelsford
+email: hi@ebrelsford.com
+baseurl: "/thoughts"
+url: "https://ebrelsford.github.io"
+twitter_username: ebrelsford
+github_username:  ebrelsford
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-crosspost-to-medium
+exclude:
+  - Gemfile
+  - Gemfile.lock

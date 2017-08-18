@@ -1,0 +1,42 @@
+---
+---
+
+@import "minima";
+$green: #7DB89F;
+
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #339C61;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.site-header {
+    background-color: #222;
+    border-top: 0;
+    padding: 10px;
+}
+
+.site-title {
+    &, &:visited {
+        color: $green;
+        font-family: "Bree Serif", "Helvetica Neue", Helvetica, Arial, cursive;
+        font-size: 1.5em;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.post-link {
+    &, &:visited {
+        color: $green;
+    }
+}
