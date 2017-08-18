@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab:400,100,300,700|Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/thoughts/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Eric Brelsford" href="/thoughts/feed.xml">
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/thoughts/">Eric Brelsford</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The demographics of Google Maps&#39; interesting areas</h1>
+    <p class="post-meta"><time datetime="2017-08-17T01:44:07-04:00" itemprop="datePublished">Aug 17, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Here’s what happens to New York if you remove the areas that Google Maps says are “uninteresting”:</p>
+
+<p><img src="https://ebrelsford.github.io/thoughts/img/interesting-area-islands.png" alt="" /></p>
+
+<p><em>(Map tiles via <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> © OpenStreetMap contributors)</em></p>
+
+<p>In the summer of 2016 Google started displaying what it calls “areas of interest” on its maps, making portions of the map a slightly-emphasized beige-orange as opposed to the standard gray. In <a href="https://blog.google/products/maps/discover-action-around-you-with-updated/">the company’s press release</a>, Google says it is using an “algorithmic process” augmented with a “human touch” in more dense areas, but it doesn’t go into detail about what data is being used by these algorithms. As suggested by <a href="http://www.citylab.com/design/2016/08/google-maps-areas-of-interest/493670/">this CityLab article by Laura Bliss</a>, there is indeed a likelihood of bias in how Google determines which areas are “of interest” and which are not. One clue toward what kinds of places Google Maps finds interesting comes from <a href="http://cityobservatory.org/the-most-interesting-neighborhood-in-the-world/">CityObservatory</a>, which overlaid storefronts on the map and anecdotally showed that areas of interest are often in places with an abundance of storefronts.</p>
+
+<p>If you haven’t noticed them, here are the areas of interest around the East Village:</p>
+
+<p><img src="https://ebrelsford.github.io/thoughts/img/interesting-areas-google.png" alt="" /></p>
+
+<p>Since Google doesn’t describe its process for creating these areas any more than, essentially, “algorithms happened and then humans changed things in an unspecified way,” we have to assume that it uses the digital representations of the areas that it has available to it, including web pages it has indexed, map data it has collected and created, and other data such as mobile data on the usage of such places. For example, soon after releasing the areas of interest change on Maps, Google showed just how much information they have about businesses and other venues when it added a feature that <a href="https://www.fastcodesign.com/3065916/google-can-now-tell-you-how-busy-restaurants-are-in-real-time">shows how busy a place is in real time</a>.</p>
+
+<p>What does it mean when a corporation starts defining especially subjective phenomena such as the <em>interestingness</em> of our cities? Then presents its findings as objective facts – areas with firm boundaries? When a map contains ads, doesn’t it have a duty to its ad customers to draw eyes toward those ads?</p>
+
+<p>It certainly does seem that based on Google’s data and financial interests, the areas it chooses to highlight will be skewed toward commercial areas and areas where people have money to spend.</p>
+
+<p>In the spirit of the aforementioned articles, I decided to use census data to get a better idea of whether there is a noticeable degree of bias in the way areas of interest are drawn.</p>
+
+<h3 id="two-cities-interesting-and-uninteresting">Two cities: interesting and uninteresting</h3>
+
+<p>Let’s think of New York as two separate cities, the interesting and uninteresting cities as determined by Google Maps. When we compare these two cities the demographics are significantly different. The census block groups in the areas highlighted by Google Maps are <strong>48.5% white</strong> while the block groups outside of these areas are only <strong>40.7% white</strong>. Similarly, the highlighted areas are <strong>17.5% black</strong> compared to <strong>27.8% black</strong> outside those areas.</p>
+
+<p>The big differences are in the black and white populations, but for completeness’ sake here is the full breakdown. (These labels courtesy the Census Bureau.)</p>
+
+<ul>
+  <li>white: 48.5% inside interesting areas, 40.7% outside interesting areas</li>
+  <li>black: 17.5% inside, 27.8% outside</li>
+  <li>asian: 13.9% inside, 13.3% outside</li>
+  <li>american indian: 0.4% inside, 0.4% outside</li>
+  <li>native hawaiian: 0.05% inside, 0.03% outside</li>
+  <li>other: 16.1% inside, 14.5% outside</li>
+  <li>two or more: 3.4% inside, 3.1% outside</li>
+</ul>
+
+<p>Here are a few maps of the census blocks with the traced areas of interest overlaid. By percent of population identifying as white:</p>
+
+<p><img src="https://ebrelsford.github.io/thoughts/img/aoi-white.png" alt="" /></p>
+
+<p>By percent of population identifying as black:</p>
+
+<p><img src="https://ebrelsford.github.io/thoughts/img/aoi-black.png" alt="" /></p>
+
+<p>Similarly, if we look at household income we see a bit of a skew, though less pronounced than the racial differences: in the interesting city <strong>29%</strong> of the households have an income of over $100k versus <strong>25%</strong> in the uninteresting city.</p>
+
+<p>Percent of households with an income of $100k or more (green), areas of interest (purple):</p>
+
+<p><img src="https://ebrelsford.github.io/thoughts/img/aoi-over100k.png" alt="" /></p>
+
+<p>It does very much seem that the areas of interest in New York are skewed toward more white and affluent parts of the city. I have a feeling that these discrepancies align with other spatial inequities in the city – the areas seem to fall into the more transit-rich parts of the city; which are places that are more likely to be threatened by gentrification; which brings along people who are whiter, more affluent, and likely using the internet and smartphones more. I don’t blame Google for much of this (in New York at least) but it is disturbing seeing these areas enshrined as the “interesting” places.</p>
+
+<h3 id="methods">Methods</h3>
+
+<p>First I traced the areas of interest. I did so in <a href="http://qgis.org/">QGIS</a> using QuickMapServices to pull in a Google Maps layer. I traced the layer at a scale of 1:7500, looking for areas of interest in the five boroughs of New York. The scale is important because as you zoom in to a smaller scale the map shows individual buildings as areas of interest. As you zoom out, the areas become more generalized. The scale I chose feels like an appropriate middle ground between very generalized and not generalzed at all. This scale also feels like the scale at which someone might realistically pan around the map – I want to see what the demographics are in the areas that someone will see in these zones while browsing the map in the area around them.</p>
+
+<p>The traced areas certainly were not perfectly traced, but even when they were sometimes they cut through parcels. I decided to find the parcels according to city data that were at least 30 percent within an area of interest. To combine nearby parcels and make the areas fuzzy again, I decided to buffer these parcels by 15 meters. The result, as you will see, is not a perfect copy of the areas of interest, but it is close enough at the scale I am interested in. In order to do demographic analysis with the areas I selected the census block groups that are overlapped by the areas of interest.</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              <a href="https://ebrelsford.github.io">Eric Brelsford</a>
+            
+            </li>
+            
+            <li><a href="mailto:hi@ebrelsford.com">hi@ebrelsford.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ebrelsford"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/ebrelsford"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
