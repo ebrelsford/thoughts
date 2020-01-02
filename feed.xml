@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ebrelsford.github.io/thoughts/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://ebrelsford.github.io/thoughts/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ebrelsford.github.io/thoughts/" rel="alternate" type="text/html" /><updated>2017-08-18T00:49:05-04:00</updated><id>https://ebrelsford.github.io/thoughts//</id><title type="html">Eric Brelsford</title><author><name>Eric Brelsford</name></author><entry><title type="html">The demographics of Google Maps’ interesting areas</title><link href="https://ebrelsford.github.io/thoughts/maps/nyc/2017/08/17/interesting-areas.html" rel="alternate" type="text/html" title="The demographics of Google Maps' interesting areas" /><published>2017-08-17T01:44:07-04:00</published><updated>2017-08-17T01:44:07-04:00</updated><id>https://ebrelsford.github.io/thoughts/maps/nyc/2017/08/17/interesting-areas</id><content type="html" xml:base="https://ebrelsford.github.io/thoughts/maps/nyc/2017/08/17/interesting-areas.html">&lt;p&gt;Here’s what happens to New York if you remove the areas that Google Maps says are “uninteresting”:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ebrelsford.github.io/thoughts/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://ebrelsford.github.io/thoughts/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ebrelsford.github.io/thoughts/" rel="alternate" type="text/html" /><updated>2020-01-02T17:39:58-05:00</updated><id>https://ebrelsford.github.io/thoughts//</id><title type="html">Eric Brelsford</title><author><name>Eric Brelsford</name></author><entry><title type="html">Google Maps’ areas of interest: update</title><link href="https://ebrelsford.github.io/thoughts/maps/nyc/2020/01/02/interesting-areas-update.html" rel="alternate" type="text/html" title="Google Maps' areas of interest: update" /><published>2020-01-02T00:00:00-05:00</published><updated>2020-01-02T00:00:00-05:00</updated><id>https://ebrelsford.github.io/thoughts/maps/nyc/2020/01/02/interesting-areas-update</id><content type="html" xml:base="https://ebrelsford.github.io/thoughts/maps/nyc/2020/01/02/interesting-areas-update.html">&lt;p&gt;A while back &lt;a href=&quot;/thoughts/maps/nyc/2017/08/17/interesting-areas.html&quot;&gt;I looked into&lt;/a&gt; the “areas of interest” Google started putting on their maps. As a refresher, these are the yellowish areas along some streets such as here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/interesting-areas-2019-gmaps.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Via Google Maps&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m curious about these areas in part because I sometimes find them useful when traveling in new cities. If I am wandering around a new place I occasionally look for them on Google Maps as a potential region to explore. Sometimes these areas are very much worth visiting. Usually I am walking a bit aimlessly, stakes are low, and it might not matter much if the areas aren’t specifically what I find interesting.&lt;/p&gt;
+
+&lt;p&gt;But the real reason I find myself returning to these areas of interest is that people use them and we don’t fully understand them. When I show Google Maps to students, most do not know what those areas are though they have theories. For example, one recently said they thought the areas were commercial areas. Even relatively tech-adept people seem to assume that these yellowish blobs represent something that objectively exists in the world, the way many of the other markings on Google Maps represent things that exist, such as the &lt;a href=&quot;https://www.justinobeirne.com/google-goes-green&quot;&gt;vegetated areas&lt;/a&gt; that were recently updated. Areas of interest do not exist. They are not business improvement districts or commercial zones or some other kind of designated area. They have been created algorithmically, and Google has not been clear about the full extent of the data and processes that have been used to generate them.&lt;/p&gt;
+
+&lt;p&gt;All maps are loaded with the perspectives of mapmakers, and a complex map like Google’s is the product of thousands and thousands of decisions and judgements, some more clearly subjective than others. Why not have a legend that describes how areas of interest were generated, or at the very least some indication that they &lt;em&gt;were&lt;/em&gt; generated? Why not give us a little more agency when choosing whether or not to be influenced by areas of interest?&lt;/p&gt;
+
+&lt;p&gt;I don’t necessarily dislike them. As I said, I have found them useful at times. But they have been created through an opaque process, and I have a feeling that people use them. Sometimes they are likely used unconsciously, seeing as how the yellow is essentially the mark of a highlighter on the map and will draw people’s eyes. Other times they are used intentionally, but perhaps the person using them does not always know what they are using: arbitrarily drawn map-blobs.&lt;/p&gt;
+
+&lt;p&gt;And they’ve changed–a lot.&lt;/p&gt;
+
+&lt;h3 id=&quot;changes-between-2017-and-2019&quot;&gt;Changes between 2017 and 2019&lt;/h3&gt;
+
+&lt;p&gt;I traced every area of interest within NYC &lt;a href=&quot;/thoughts/maps/nyc/2017/08/17/interesting-areas.html&quot;&gt;back in 2017&lt;/a&gt;. Out of curiosity I recently overlaid the shapes I created in 2017 on top of Google Maps and saw that seemingly every area has changed in some capacity–some are gone, some are new, most have grown or shrunk in some way. I decided to trace every area of interest in NYC again in order to have a (December) 2019 dataset to compare with.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/astoria.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Via Google Maps&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Above you can see Google Maps in part of Astoria, Queens (accessed December 2019) with the old areas of interest from 2017 overlaid in brown. This is how many neighborhoods’ areas of interest have changed since 2017–some areas have apparently become less interesting and are no longer highlighted (see, for example, the area around the Museum of the Moving Image in the bottom left) and others have grown or adjusted.&lt;/p&gt;
+
+&lt;p&gt;Similarly here in Brooklyn from Red Hook (now, a bit surprisingly, uninteresting) to Carroll Gardens and Gowanus (both more interesting):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/red-hook.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These tweaks are worth examining, but I also want to get an idea of the overall change citywide. Looking at NYC’s NTAs (Neighborhood Tabulation Areas, loosely based on neighborhood shapes), we can see at a glance which neighborhoods lost areas of interest and which gained:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/interesting-areas-2019-to-2017.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Above, green neighborhoods have more areas of interest in 2019 than they had in 2017, red-pink have fewer areas of interest in 2019 than they had in 2017. In Brooklyn and Queens you can see generally the parts closer to Manhattan got more “interesting”, while the parts further out got less so. Much of Manhattan below Harlem got more interesting, and Harlem got less interesting:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/upper-west-east-harlem.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Above is a diff of the 2017 and 2019 data–orange showing areas that were areas of interest in 2017 but were not in 2019, green showing areas of interest in 2019 that were not in 2017, and gray-blue for areas that did not change. At a glance, you can see that the Upper West Side (left) only gained interesting areas, the Upper East Side (right) gained more than it lost, and Harlem (top) mostly lost.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/midtown.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Above we see a similar diff, here centered around midtown Manhattan. While the losses and gains essentially even out, note that there are dramatically more interesting areas to the south of Times Square and dramatically fewer north and west of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/south-bk.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, here is the lower half of Brooklyn, generally everything south of Prospect Park. Most of these areas of interest shrank, the notable exceptions being (gentrifying) Sunset Park and Prospect Lefferts, but also 5th Ave in Bay Ridge.&lt;/p&gt;
+
+&lt;p&gt;New York changes constantly, of course, but it would be hard to argue that these places truly got dramatically more or less interesting, not to a point that would warrant changing these shapes. It feels safe to say that these changes are a result of Google tweaking its process for creating these arbitrary shapes.&lt;/p&gt;
+
+&lt;h3 id=&quot;demographics-of-the-2019-areas&quot;&gt;Demographics of the 2019 areas&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/thoughts/maps/nyc/2017/08/17/interesting-areas.html&quot;&gt;Last time I looked at this data&lt;/a&gt; I used Census data and found that there were some biases in where the areas of interest were located in 2017. Specifically, predominantly black neighborhoods appeared to be less likely to be included in an area of interest.&lt;/p&gt;
+
+&lt;p&gt;Looking at the 2019 data, areas of interest have not become any less biased. These areas of interest are &lt;strong&gt;even more&lt;/strong&gt; centered on white neighborhoods: 50% of people living in an area of interest are white, which is up from 48.5% in 2017. 42.8% of people citywide identified themselves as white in the Census.&lt;/p&gt;
+
+&lt;p&gt;Perhaps unsurprisingly knowing the above, the areas of interest from 2019 contain &lt;strong&gt;fewer black neighborhoods&lt;/strong&gt;: 16.8% of people living in an area of interest are black, down from 17.5% in 2017. 24.3% of people citywide identified as black in the Census.&lt;/p&gt;
+
+&lt;p&gt;I should also note that there are slightly more asian-identified people living in 2019 areas of interest (14.4%, up from 13.9% in 2017).&lt;/p&gt;
+
+&lt;h3 id=&quot;potential-impacts&quot;&gt;Potential impacts&lt;/h3&gt;
+
+&lt;p&gt;I’m curious to know more about how people intentionally use areas of interest–do you use them to explore new places? Are you concerned that Google Maps might be leading you to neighborhoods that aren’t particularly representative of a place if so?&lt;/p&gt;
+
+&lt;p&gt;Do these areas have other impacts, such as on housing prices the way &lt;a href=&quot;https://buffalonews.com/2019/03/17/fruit-belt-fights-for-its-name-over-fears-big-tech-is-erasing-it/&quot;&gt;neighborhood names&lt;/a&gt; have? Might business improvement districts and real estate companies lobby for areas to be marked as interesting, as groups &lt;a href=&quot;https://www.nytimes.com/2018/08/02/technology/google-maps-neighborhood-names.html&quot;&gt;have done&lt;/a&gt; for neighborhoods names? Or might homeowners’ groups, annoyed at tourists visiting their neighborhoods, request removal from areas, as we’ve seen with &lt;a href=&quot;https://gizmodo.com/why-people-keep-trying-to-erase-the-hollywood-sign-from-1658084644&quot;&gt;the Hollywood sign in LA&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Did this type of pressure lead to any of the changes we see above?&lt;/p&gt;
+
+&lt;p&gt;For my part, I’m going to continue watching these areas and using them (with some caution).&lt;/p&gt;</content><author><name>Eric Brelsford</name></author><summary type="html">A while back I looked into the “areas of interest” Google started putting on their maps. As a refresher, these are the yellowish areas along some streets such as here:</summary></entry><entry><title type="html">The demographics of Google Maps’ interesting areas</title><link href="https://ebrelsford.github.io/thoughts/maps/nyc/2017/08/17/interesting-areas.html" rel="alternate" type="text/html" title="The demographics of Google Maps' interesting areas" /><published>2017-08-17T01:44:07-04:00</published><updated>2017-08-17T01:44:07-04:00</updated><id>https://ebrelsford.github.io/thoughts/maps/nyc/2017/08/17/interesting-areas</id><content type="html" xml:base="https://ebrelsford.github.io/thoughts/maps/nyc/2017/08/17/interesting-areas.html">&lt;p&gt;Here’s what happens to New York if you remove the areas that Google Maps says are “uninteresting”:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://ebrelsford.github.io/thoughts/img/interesting-area-islands.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
